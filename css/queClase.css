@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Chango");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,800,900,900i");
+body {
+  font-family: sans-serif;
+  background-color: #ffff64; }
+  body h1 {
+    font-family: "Montserrat",sans-serif;
+    font-weight: "900";
+    color: #333333;
+    font-size: 5em;
+    letter-spacing: 0.05em;
+    margin-top: 1em;
+    margin-bottom: 0.3em; }
+  body h2 {
+    margin-top: 0px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    letter-spacing: 0.2em; }
+  body header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; }
+  body section .apartat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  body section h1 {
+    font-family: "Montserrat",sans-serif;
+    font-weight: "900";
+    color: #333333;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    margin-top: 1em;
+    margin-bottom: 0.3em; }
